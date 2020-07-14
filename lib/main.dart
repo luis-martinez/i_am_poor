@@ -9,6 +9,11 @@ void main() {
           backgroundColor: Colors.black54,
           title: Text('I am poor'),
         ),
+        body: Center(
+          child: Image(
+            image: AssetImage('images/coal.png'),
+          ),
+        ),
       ),
     ),
   );
